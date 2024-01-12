@@ -1,0 +1,11 @@
+ID;movie_ID;rating;comment;customer_ID;createdAt
+1;1;4;"Great movie!";101;2020-01-15 08:30:00
+2;2;5;"Loved it!";102;2020-01-16 09:45:00
+3;3;4;"Another fun adventure!";103;2020-01-17 10:15:00
+4;4;4;"Beautiful animation!";104;2020-01-18 12:00:00
+5;5;5;"Joaquin Phoenix's performance was outstanding.";105;2020-01-19 14:20:00
+6;6;3;"Not as good as the first one.";104;2020-01-20 16:35:00
+7;7;4;"Brie Larson was fantastic.";105;2020-01-21 18:45:00
+8;8;3;"A bit disappointing.";106;2020-01-22 20:10:00
+9;9;5;"A magical retelling of a classic.";106;2020-01-23 22:00:00
+10;10;4;"Great performances by the cast.";101;2020-01-24 23:30:00

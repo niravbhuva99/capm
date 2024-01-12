@@ -1,0 +1,33 @@
+{
+  "name": "cap-project",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.120.1"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-hospital-management": "cds watch --open hospital-management/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-tour-booking": "cds watch --open tour-booking/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-movie-ticket-booking": "cds watch --open movie-ticket-booking/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-movie-booking-service": "cds watch --open movie-booking-service/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-movie-ticket-management": "cds watch --open movie-ticket-management/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-movie-ticket-managment": "cds watch --open movie-ticket-managment/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/hospital-management",
+    "app/tour-booking",
+    "app/movie-ticket-booking",
+    "app/movie-booking-service",
+    "app/movie-ticket-management",
+    "app/movie-ticket-managment"
+  ]
+}

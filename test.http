@@ -1,0 +1,38 @@
+###
+#
+# Browse Books
+#
+GET http://localhost:4004/odata/v4/movie-booking/Movie?$expand=bookings
+  # &$select=title,stock
+  # &$expand=currency
+  # &sap-language=de
+
+###
+#
+# Get Author wit ID 101
+#
+
+###
+#
+# Update Author with ID 101
+#
+POST http://localhost:4004/odata/v4/movie-booking/Booking
+Content-Type: application/json
+
+{
+  "ID": "550e8400-e29b-41d4-a716-446655440004",
+  "movie_ID": "a3d20e48-4ece-457a-881e-d51f37db917b",
+  "customerName": "John Doe",
+  "email": "john.doe@example.com"
+}
+
+###
+#
+# Order a Book
+#
+# POST http://localhost:4004/odata/v4/catalog/Orders
+# Content-Type: application/json;IEEE754Compatible=true
+
+# {"book_ID": 201, "amount": 5}
+
+
